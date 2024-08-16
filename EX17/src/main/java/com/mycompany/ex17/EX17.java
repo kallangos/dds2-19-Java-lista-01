@@ -35,7 +35,7 @@ public class EX17 {
              }
         }
         System.out.println("|  ");
-        System.out.println("|  Nesta palavra ou frase há " + numVogais + " vogais.");
+        System.out.println("|  Nesta palavra ou frase há " + numVogais + " vogais. ");
         System.out.println("|  ");
         System.out.println("|  Saindo... ");
     }
