@@ -28,7 +28,7 @@ public class EX01 {
         media = (n1+n2+n3)/3;
                 
         if (media>=7) {
-            System.out.println("Aluno Aprovado!");
+            System.out.println("Aluno Aprovado! ");
             System.out.println("Media = " + media);
         } else if (media>=5){
             System.out.println("Aluno em Recuperação!");
