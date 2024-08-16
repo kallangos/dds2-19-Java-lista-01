@@ -28,6 +28,8 @@ public class EX20 {
         
         if (vDesconto>0){
             System.out.println("|  O valor final ao usuario : R$ " + (vCompra-((vCompra*vDesconto)/100)));
+        } else {
+            System.out.println("|  Nao ha deconsto para aplicar o valor se mantem o mesmo R$ " + vCompra);
         }
         
         System.out.println("|                                                   |");
