@@ -19,7 +19,7 @@ public class EX15 {
         Scanner ler = new Scanner(System.in);
         
         System.out.println("-----------------------------------------------------");
-        System.out.println("|          Calculo Fatorial                         |");
+        System.out.println("|                Calculo Fatorial                   |");
         System.out.println("-----------------------------------------------------");
         System.out.println("|                                                   |");
         System.out.println("|  Digite o numero inteiro para fatorar: ");
