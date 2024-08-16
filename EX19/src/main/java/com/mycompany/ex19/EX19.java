@@ -14,6 +14,25 @@ import java.util.Scanner;
 public class EX19 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int expoente, base , resultado= 0;
+        Scanner ler = new Scanner(System.in);
+        
+        System.out.println("-----------------------------------------------------");
+        System.out.println("|              Calculo de Potencia                  |");
+        System.out.println("-----------------------------------------------------");
+        System.out.println("|                                                   |");
+        System.out.println("|  Entre com o valor da base: ");
+        base = ler.nextInt();
+        System.out.println("|  Entre com o valor do exploente: ");
+        expoente = ler.nextInt();
+        
+        resultado=base;
+        
+        for (int i = 1 ; i<expoente; i++){
+            resultado *= resultado;
+        }
+        System.out.println("|  Potencia de base:" + base + ", expoente: " + expoente + " = " + resultado);
+        System.out.println("|  ");
+        System.out.println("|  Saindo... ");
     }
 }
