@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author Thor
+ * Contagem de Números Pares e Ímpares: Crie um programa que solicite ao usuário um 
+ * número e utilize um laço FOR para percorrer todos os números de 1 até o número inserido. 
+ * O programa deve contar e exibir a quantidade de números pares e ímpares.
  */
 public class EX07 {
 
