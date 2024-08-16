@@ -39,8 +39,8 @@ public class EX12 {
             } else if ((voto!=1)&(voto!=2)&(voto!=3)){
                 System.out.println("|  * VOTO ANULADO * ");
             } 
-            System.out.println("|  ");
-            System.out.println("|  ");
+            System.out.println("|");
+            System.out.println("|");
         }
 
         System.out.println("-----------------------------------------------------");
