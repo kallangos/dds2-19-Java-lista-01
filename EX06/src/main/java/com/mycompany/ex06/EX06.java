@@ -59,8 +59,8 @@ public class EX06 {
             System.out.println("| Resultado: Obesidade Classe III.");
         }
         
-        System.out.println("|  ");
         System.out.println("| Saindo...");
+        System.out.println("|  ");
 
         
         
