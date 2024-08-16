@@ -28,7 +28,8 @@ public class EX16 {
         palindromo = ler.nextLine();
         tamanhoPalavra = palindromo.length();
         
-        for (int i = 0; i < tamanhoPalavra / 2; i++) {
+        for (int i = 0; i < tamanhoPalavra ; i++) {
+            //System.out.println("| Lado (A) " + palindromo.charAt(i) + " Lado (B) " + palindromo.charAt(tamanhoPalavra - 1 - i) + " i = "+ i);
             if (palindromo.charAt(i) != palindromo.charAt(tamanhoPalavra - 1 - i)) {
                 ePalindromo = false;
                 break;
