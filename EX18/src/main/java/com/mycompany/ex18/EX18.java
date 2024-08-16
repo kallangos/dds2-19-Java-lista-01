@@ -21,9 +21,9 @@ public class EX18 {
         System.out.println("|              Systema de pedagio                   |");
         System.out.println("-----------------------------------------------------");
         System.out.println("|                                                   |");
-        System.out.println("|          Informe qual é o seu veículo            |");
+        System.out.println("|          Informe qual e o seu veiculo             |");
         System.out.println("|                                                   |");
-        System.out.println("|      (1) Carro   (2) Moto   (3) Caminhão          |");
+        System.out.println("|      (1) Carro   (2) Moto   (3) Caminhao          |");
         System.out.println("| ");
         tipoVeiculo = ler.nextInt();
         if (tipoVeiculo==1){
