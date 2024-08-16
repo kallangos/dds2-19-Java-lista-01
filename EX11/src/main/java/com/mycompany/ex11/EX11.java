@@ -19,7 +19,6 @@ public class EX11 {
         int tipoTemperadura = 0 ;
         Scanner ler = new Scanner(System.in);
         
-
         System.out.println("-----------------------------------------------------");
         System.out.println("|   Conversor de Temperatura                        |");
         System.out.println("-----------------------------------------------------");
@@ -30,8 +29,6 @@ public class EX11 {
         System.out.println("| Esta temperatura esta em Celsius ou Fahrenheit ?");
         System.out.println("| Digite (1) Celsius ou (2) Fahrenheit : ");
         tipoTemperadura = ler.nextInt();
-        
-        
         
         if (tipoTemperadura==1){
             temperaturaconvertida = (temperatura * 9 / 5) + 32;
@@ -44,8 +41,6 @@ public class EX11 {
         } else {
             System.out.println("| Opçao Invalida! ");
         }
-        
-        
         
         System.out.println("| ");
         System.out.println("| Saindo...");
